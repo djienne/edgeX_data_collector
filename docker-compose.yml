@@ -1,0 +1,14 @@
+version: '3.8'
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 180.25.0.0/16
+services:
+  collector:
+    build: .
+    container_name: edgex_collector
+    volumes:
+      - ./edgex_data:/app/edgex_data
+    restart: unless-stopped
