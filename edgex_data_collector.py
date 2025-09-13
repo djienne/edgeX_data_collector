@@ -3,7 +3,6 @@
 EdgeX Market Data Collector - FINAL STABLE VERSION
 Focuses on reliably collecting Ticker, Trades, and Order Book (depth) data streams.
 Processes order book snapshots and changes to create a full snapshot for each update.
-Debug logging is on by default.
 """
 
 import asyncio
