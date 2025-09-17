@@ -1,0 +1,33 @@
+{
+    "ticker": "PAXG",
+    "timestamp": "2025-09-17T12:51:49.575552",
+    "market_data": {
+        "mid_price": 3677.5,
+        "sigma": 0.002767307728028634,
+        "A": 0.018499241561744525,
+        "k": 0.11527472790432568
+    },
+    "optimal_parameters": {
+        "gamma": 0.14006333333333335
+    },
+    "current_state": {
+        "time_remaining": 0.25,
+        "inventory": 1,
+        "hours_window": 6,
+        "ma_window": 3
+    },
+    "calculated_values": {
+        "reservation_price": 3677.499999731849,
+        "gap": 2.681508703972213e-07,
+        "spread_base": 11.355865659700594,
+        "half_spread": 5.677932829850297
+    },
+    "limit_orders": {
+        "ask_price": 3683.1779322935486,
+        "bid_price": 3671.822066633848,
+        "delta_a": 5.677932561699427,
+        "delta_b": 5.6779330980011675,
+        "delta_a_percent": 0.15439653464852282,
+        "delta_b_percent": 0.15439654923184684
+    }
+}
