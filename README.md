@@ -59,9 +59,9 @@ This script analyzes the collected market data (prices and trades) to estimate t
 
 It outputs the calculated parameters, reservation price, and optimal bid/ask quotes.
 
-### `avellaneda_parameters_BTC.json`
+### `avellaneda_parameters_PAXG.json`
 
-A sample output file containing the calculated parameters for the bitcoin. This file includes:
+A sample output file containing the calculated parameters for PAXG. This file includes:
 - **Market Data**: Mid-price, volatility (sigma), and intensity parameters (A, k).
 - **Optimal Parameters**: The calculated risk aversion parameter (gamma).
 - **Calculated Prices**: The reservation price and optimal bid/ask limit orders based on the model.
