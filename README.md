@@ -48,3 +48,20 @@ Data will be saved to the `edgex_data` directory.
 ## Configuration
 
 The crypto contracts to monitor can be adjusted by modifying the `CONTRACT_MAP` dictionary within the `edgex_data_collector.py` script.
+
+### `calculate_avellaneda_parameters.py`
+
+This script analyzes the collected market data (prices and trades) to estimate the key parameters for the Avellaneda-Stoikov market making model.
+
+- **Volatility (σ)**: Measures the standard deviation of log-returns.
+- **Order Arrival Intensity (A, k)**: Models the rate of order arrivals at different price levels.
+- **Risk Aversion (γ)**: Optimizes the trade-off between inventory risk and spread profit via backtesting.
+
+It outputs the calculated parameters, reservation price, and optimal bid/ask quotes.
+
+### `avellaneda_parameters_BTC.json`
+
+A sample output file containing the calculated parameters for the bitcoin. This file includes:
+- **Market Data**: Mid-price, volatility (sigma), and intensity parameters (A, k).
+- **Optimal Parameters**: The calculated risk aversion parameter (gamma).
+- **Calculated Prices**: The reservation price and optimal bid/ask limit orders based on the model.
