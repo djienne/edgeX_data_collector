@@ -4,6 +4,8 @@ A simple and reliable Python script to collect real-time market data from the Ed
 
 This collector connects to the EdgeX WebSocket, subscribes to specified market data channels, and saves the incoming data into organized CSV files.
 
+Referral link to support this work: https://pro.edgex.exchange/referral/FREQTRADE .
+
 ## Features
 
 - **Multiple Data Streams**: Collects Ticker, Trade, and Order Book (depth) data.
